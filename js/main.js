@@ -28,7 +28,7 @@ var entries = [
     type: "professional",
     url: "http://m.fossil.com/",
     thumbnail: "m.fossil.png",
-    // screenshots: ["m.fossil-1.png", "m.fossil-2.png", "m.fossil-3.png", "m.fossil-4.png"],
+    screenshots: ["m.fossil-1.png", "m.fossil-2.png", "m.fossil-3.png", "m.fossil-4.png"],
     description: '<p>The <a href="http://www.fossil.com/">Fossil</a> mobile ecommerce site for <a href="http://www.fossilgroup.com/">Fossil Group</a>.</p><p>In 2012 I was brought onto Fossil Group\'s newly created Mobile Team and we were tasked with "in-housing" the existing third-party mobile site, which was really crappy and provided poor user experience.</p><p>During the initial "in-housing" phase, I was personally responsible for building HTML5 <a href="https://mustache.github.io/">Mustache</a> templates, writing CSS3 (<a href="http://lesscss.org/">LESS</a>) styles, scripting dynamic content with JavaScript, tagging pages via <a href="http://www-01.ibm.com/software/marketing-solutions/coremetrics/">IBM Coremetrics</a>, setting up the local build environment, and providing mobile-specific architecture &amp; design recommendations.</p><p>In 2014, the mobile site went through a major redesign in response to increasing mobile traffic. I was personally responsible for adding several new features including a custom <a href="http://en.wikipedia.org/wiki/Typeahead">Typeahead</a> search, <a href="http://www.bazaarvoice.com/">Bazaarvoice</a> ratings & reviews, product recommendations via <a href="http://www-01.ibm.com/software/marketing-solutions/products-recommendation-solution/">IBM Coremetrics Intelligent Offer</a>, adding <a href="https://www.paypal.com/home">Paypal</a> support, among various other features.</p>',
     tags: ["Mobile Web", "<a href='http://www-01.ibm.com/software/marketing-solutions/coremetrics/'>IBM Coremetrics</a> (tracking, product recommendations)", "<a href='http://www.bazaarvoice.com/'>Bazaarvoice</a> (ratings & reviews)", "HTML5", "Mustache", "CSS3", "LESS", "JavaScript", "jQuery", "git", "<a href='http://brunch.io/'>Brunch</a>"],
     nsfw: false
@@ -182,8 +182,9 @@ var entries = [
     coolness: 1.1,
     url: "https://github.com/Anaphase/note-to-self-bot",
     thumbnail: "ntsb.png",
+    screenshots: ["ntsb-1.png", "ntsb-2.png", "ntsb-3.png"],
     description: '<p>A reddit bot that scans comments for \'note to self\' and replies with a reminder one day later.</p><p>The bot uses <a href="https://github.com/Anaphase/reddit-stream">reddit-stream</a> (and npm module I also wrote) to scan comments, <a href="https://www.mongodb.org/">MongoDB</a>/<a href="http://mongoosejs.com/">Mongoose</a> to save them locally, and <a href="https://bitbucket.org/Doctor_McKay/raw.js">raw.js</a> to send comment replies. The bot uses <a href="http://socket.io/">socket.io</a> to communicate with the frontend dashboard (for editing replies and removing false positives from the queue) and <a href="https://pushover.net/">Pushover</a> to notify your phone when it picks up a comment. NTSB runs forever using <a href="https://github.com/nodejitsu/forever">Forever</a>.</p>',
-    tags: ["Node.JS", "reddit API", "CoffeeScript", "MongoDB", "AngularJS"],
+    tags: ["Node.JS", "reddit API", "CoffeeScript", "MongoDB", "AngularJS", "Bootstrap", "<a href='https://pushover.net/'>Pushover</a>", "<a href='http://ionicframework.com/'>Ionic Framework</a>"],
     nsfw: false
   },
 
