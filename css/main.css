@@ -1,0 +1,134 @@
+body {
+	padding-top: 0;
+}
+
+section {
+	padding-top: 30px;
+}
+
+section#home {
+	padding-top: 80px;
+}
+
+.entry-date {
+	margin-left: 10px;
+}
+
+.btn-resume {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.row, .row-fluid {
+	margin-top: 30px;
+}
+
+.entry-container {
+	display: none;
+}
+
+.portfolio-loading-icon {
+	text-align: center;
+}
+
+.portfolio-entry {
+	display: none; /* initially hidden, each will be toggled on when necessary */
+}
+
+.more-container {
+	text-align: center;
+	display: none;
+}
+
+.full-width {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	body {
+		padding-top: 0;
+	}
+
+	h1 small {
+		margin-left: 0;
+		display: block;
+	}
+
+	.entry-date {
+		margin-left: 0;
+		display: block;
+	}
+
+	section {
+    	padding-top: 10px;
+	}
+
+	section#home {
+    	padding-top: 0;
+	}
+
+	.btn-resume {
+		width: 100%;
+		display: block;
+		margin-right: 0;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.btn-contact {
+		width: 100%;
+		display: block;
+		margin-top: 10px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	body {
+		padding-top: 0;
+	}
+
+	h1 small {
+		margin-left: 0;
+		display: block;
+	}
+
+	section {
+    	padding-top: 10px;
+	}
+
+	section#home {
+    	padding-top: 0;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 980px) {
+
+	body {
+		padding-top: 0;
+	}
+
+	section {
+    	padding-top: 10px;
+	}
+
+	section#home {
+    	padding-top: 0;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
