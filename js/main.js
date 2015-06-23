@@ -179,7 +179,7 @@ var entries = [
       start: new Date("May 15, 2014")
     },
     type: "personal",
-    coolness: 1.1,
+    coolness: 1.2,
     url: "https://github.com/Anaphase/note-to-self-bot",
     thumbnail: "ntsb.png",
     screenshots: ["ntsb-1.png", "ntsb-2.png", "ntsb-3.png"],
@@ -189,12 +189,26 @@ var entries = [
   },
 
   {
+    name: "WebCap",
+    date: {
+      start: new Date("December 12, 2012")
+    },
+    type: "personal",
+    coolness: 1,
+    url: "http://webcap.me/",
+    thumbnail: "webcap.png",
+    description: '<p>A simple web app that takes full-page screenshots of websites. I basically wrote this so I could get around my work\'s firewall that blocked very innocuous sites. Features adjustable "screen" width and permanate screenshot retention.</p>',
+    tags: ["Node.JS", "PhantomJS", "PHP", "Brunch", "Backbone"],
+    nsfw: false
+  },
+
+  {
     name: "Worldly Comments",
     date: {
       start: new Date("October 1, 2010")
     },
     type: "personal",
-    coolness: 1,
+    coolness: 1.1,
     url: "http://worldlycomments.com/",
     thumbnail: "worldlycomments.png",
     description: "<p>Leave comments on a world map using HTML5 location services and Google Maps API.</p>",
@@ -208,7 +222,7 @@ var entries = [
       start: new Date("November 1, 2011")
     },
     type: "personal",
-    coolness: 1,
+    coolness: 0.9,
     url: "http://altform.com/projects/facebook/guesswho/",
     thumbnail: "guesswho.png",
     description: "<p>A fun game where you are given a random Facebook status from one of your friends and you must guess who said it. Give it a try, I think it's really fun!</p>",
@@ -225,7 +239,7 @@ var entries = [
     coolness: 0.7,
     url: "http://alphadown.com/",
     thumbnail: "alphadown.png",
-    description: "<p>A file upload site I made a long time ago to host files on my home server. Nothing fancy, but it does allow multiple files in one upload. (Upload retrieval subject to my home server's erratic downtime. But if you're reading this sentence, it's up.)</p>",
+    description: "<p>A file upload site I made a long time ago to host files on my home server. Nothing fancy, but it does allow multiple files in one upload. (Upload retrieval subject to my home server's erratic downtime.)</p>",
     tags: ["PHP", "JavaScript", "HTML", "CSS"],
     nsfw: false
   },
