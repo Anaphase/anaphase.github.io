@@ -43,6 +43,7 @@ var entries = [
     type: "professional",
     url: "http://m.skagen.com/",
     thumbnail: "m.skagen.png",
+    screenshots: ["m.skagen-1.png", "m.skagen-2.png"],
     description: '<p>The <a href="http://skagen.com/">Skagen</a> mobile ecommerce site for <a href="http://www.fossilgroup.com/">Fossil Group</a>.</p><p>In 2014, Fossil Group partnered with <a href="http://www.citytechinc.com/">CityTech</a> to launch a redesign of the desktop &amp; mobile Skagen websites on the <a href="http://www.adobe.com/marketing-cloud/enterprise-content-management.html">Adobe Experience Manager</a> CMS platform. My team was responsible for the <em>My Account</em> and <em>Checkout</em> areas of the mobile site.</p>',
     tags: ["Mobile Web", "HTML5", "Mustache", "CSS3", "LESS", "JavaScript", "jQuery", "git", "<a href='http://brunch.io/'>Brunch</a>"],
     nsfw: false
