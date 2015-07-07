@@ -142,7 +142,7 @@ var entries = [
     type: "professional",
     url: "http://altform.com/projects/gary/",
     thumbnail: "ciscophonebook.png",
-    description: "<p>A set of PHP pages that edit a collection of XML files for use with Cisco Phone Books. Feel free to add or edit contacts, this link is only a demo of what I was contracted to do.</p>",
+    description: "<p>A set of PHP pages that edit a collection of XML files for use with Cisco Phone Books. Feel free to add or edit contacts, this link is only a demo of what I was contracted to do.</p><p>Note: in April 2014, <a href='https://github.com/Anaphase/ip-phone-book-manager'>I rewrote this application as an Angular app</a>, with a robust set of new features!</p>",
     tags: ["PHP", "Responsive Design", "HTML5", "JavaScript"],
     nsfw: false
   },
