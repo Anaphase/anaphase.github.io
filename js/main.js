@@ -4,18 +4,93 @@ var now = new Date();
 
 var entries = [
 
+  // {
+  //   name: "Codex Registry",
+  //   date: {
+  //     start: new Date("March 1, 2018"),
+  //     current: true,
+  //   },
+  //   type: "professional",
+  //   url: "https://codexprotocol.com",
+  //   thumbnail: "codex-registry.png",
+  //   screenshots: ["codex-registry-1.png", "codex-registry-2.png", "codex-registry-3.png"],
+  //   description: '<p></p>',
+  //   tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "web3", "Ethereum", "<a href='https://metamask.io/'>MetaMask</a>", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node", "Express", "MongoDB", "VueJS", "Bootstrap Vue",  "<a href='http://stylus-lang.com/'>Stylus</a>", "git", "webpack"],
+  //   nsfw: false
+  // },
+
+  {
+    name: "Biddable",
+    date: {
+      start: new Date("March 1, 2018"),
+      current: true,
+    },
+    type: "professional",
+    url: "https://codexprotocol.com/biddable.html",
+    thumbnail: "biddable.png",
+    screenshots: ["biddable-1.png", "biddable-2.png", "biddable-3.png"],
+    description: '<p>Helped write backend service that allows people to deposit cryptocurrecy (Ether) into an "escrow" smart contract, which allows them to be instantly approved to bid on artwork at over 5,000 auction houses.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "web3", "Ethereum", "<a href='https://metamask.io/'>MetaMask</a>", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node", "Express", "MongoDB", "React", "git", "webpack"],
+    nsfw: false
+  },
+
+  {
+    name: "Talk Fusion Live Meetings",
+    date: {
+      start: new Date("July 1, 2015"),
+      end: new Date("March 3, 2018"),
+    },
+    type: "professional",
+    url: "https://talkfusion.com/en/products/live-meetings",
+    thumbnail: "live-meetings.png",
+    screenshots: ["live-meetings-1.png", "live-meetings-2.png", "live-meetings-3.png"],
+    description: '<p>Developed & maintained a Flash-based (then later, WebRTC-based) online conferencing application including support for streaming up to 16 video feeds, screen sharing, slide-based presentations, in-line chat with emoji support, whiteboard drawing, file sharing, and more.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node", "ActionScript", "WebRTC", "Express", "Socket.io", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
+    nsfw: false
+  },
+
+  {
+    name: "Talk Fusion Video Chat",
+    date: {
+      start: new Date("October 1, 2015"),
+      end: new Date("March 2, 2018"),
+    },
+    type: "professional",
+    url: "https://talkfusion.com/en/products/video-chat",
+    thumbnail: "video-chat.png",
+    screenshots: ["video-chat-1.png", "video-chat-2.png", "video-chat-3.png"],
+    description: '<p>Helped develop WebRTC-based online video chat application including support for screen sharing and in-line chat. This application also had a “group chat” section that allowed users to host chat rooms as well as “corporate” & “country” rooms managed by Talk Fusion.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "VueJS", "Vue Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "JavaScript", "Node", "Express", "Socket.io", "MySQL", "git", "webpack"],
+    nsfw: false
+  },
+
+  {
+    name: "Talk Fusion Product Dashboard",
+    date: {
+      start: new Date("November 1, 2015"),
+      end: new Date("March 1, 2018"),
+    },
+    type: "professional",
+    url: "https://talkfusion.com",
+    thumbnail: "product-dashboard.png",
+    screenshots: ["product-dashboard-1.png", "product-dashboard-2.png", "product-dashboard-3.png", "product-dashboard-4.png"],
+    description: '<p>Developed & maintained a product dashboard that integrated legacy ASP applications as well as all-new modern web apps. Wrote a calendar app from scratch that allowed users to create & schedule Live Meetings with tons of additional features including recurring meetings, invitations & reminder emails, surveys, and custom backgrounds.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node", "Express", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
+    nsfw: false
+  },
+
   {
     name: "Fossil Concessions",
     date: {
       start: new Date("October 1, 2012"),
-      current: true
+      end: new Date("July 1, 2015"),
     },
     type: "professional",
     url: "https://concessions.fossil.com/",
     thumbnail: "concessions.png",
     screenshots: ["concessions-1.png", "concessions-2.png", "concessions-3.png"],
     description: '<p>An iPad enterprise solution for logging/editing transactions, tracking time sheets, managing product inventory, and sales reporting.</p><p>The Concessions App is used in over 500 Asian & European <a href="http://www.fossilgroup.com/">Fossil Group</a> stores to log transactions and perform other store related tasks. I was personally responsible for developing and maintaining the middleware server that acts as the iPad\'s backend, which processes thousands of transactions a day.</p><p>The middleware runs a RESTful PHP application with MySQL database on the <a href="http://aws.amazon.com/">Amazon Web Services</a> Elastic Beanstalk platform. The middleware also runs a web-facing admin portal to assist end-users in creating new users, stores, roles & permissions, etc.</p><p>From June 2014 onward, I was the sole owner of the entire middleware project and as such was the main point of contact for any and all backend issues related to the app. I performed all development, maintained all AWS configurations, and interfaced directly with business partners in both Asia & Europe to help expand the app to over 100 stores.</p>',
-    tags: ["Amazon Web Services (Elastic Beanstalk, EC2, RDS)", "PHP", "<a href='http://www.slimframework.com/'>Slim</a>", "REST", "Zend Framework 2", "HTML5", "CSS3", "LESS", "JavaScript", "jQuery", "Handlebars", "Backbone", "Underscore", "MySQL", "Linux Admix", "Bash Scripting", "git", "<a href='https://pushover.net/'>Pushover</a>", "<a href='http://brunch.io/'>Brunch</a>"],
+    tags: ["Amazon Web Services (Elastic Beanstalk, EC2, RDS)", "PHP", "<a href='http://www.slimframework.com/'>Slim</a>", "REST", "Zend Framework 2", "HTML5", "CSS3", "LESS", "JavaScript", "jQuery", "Handlebars", "Backbone", "Underscore", "MySQL", "Linux Admin", "Bash Scripting", "git", "<a href='https://pushover.net/'>Pushover</a>", "<a href='http://brunch.io/'>Brunch</a>"],
     nsfw: false
   },
 
@@ -23,7 +98,7 @@ var entries = [
     name: "Fossil Mobile",
     date: {
       start: new Date("August 27, 2012"),
-      current: true
+      end: new Date("July 1, 2015"),
     },
     type: "professional",
     url: "http://m.fossil.com/",
@@ -53,7 +128,7 @@ var entries = [
   //   name: "Fossil Mobile CMS Relaunch",
   //   date: {
   //     start: new Date("January 1, 2015"),
-  //     current: true
+  //     end: new Date("July 1, 2015"),
   //   },
   //   type: "professional",
   //   url: "http://m.fossil.com/",
@@ -353,7 +428,8 @@ var entries = [
     url: "http://altform.com/projects/webtag/",
     thumbnail: "webtag.png",
     description: "<p>This is probably the oldest, still-working web page I have. It scrapes text off of a given webpage and returns a pretty bad looking <a href='http://en.wikipedia.org/wiki/Tag_cloud'>word cloud</a>.</p>",
-    tags: []
+    tags: [],
+    nsfw: false
   }
 
 ];
