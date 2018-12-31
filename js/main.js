@@ -4,20 +4,35 @@ var now = new Date();
 
 var entries = [
 
-  // {
-  //   name: "Codex Registry",
-  //   date: {
-  //     start: new Date("March 1, 2018"),
-  //     current: true,
-  //   },
-  //   type: "professional",
-  //   url: "https://codexprotocol.com",
-  //   thumbnail: "codex-registry.png",
-  //   screenshots: ["codex-registry-1.png", "codex-registry-2.png", "codex-registry-3.png"],
-  //   description: '<p></p>',
-  //   tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "web3", "Ethereum", "<a href='https://metamask.io/'>MetaMask</a>", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node", "Express", "MongoDB", "VueJS", "Bootstrap Vue",  "<a href='http://stylus-lang.com/'>Stylus</a>", "git", "webpack"],
-  //   nsfw: false
-  // },
+  {
+    name: "Codex Viewer",
+    date: {
+      start: new Date("April 2, 2018"),
+      current: true,
+    },
+    type: "professional",
+    url: "https://codex-viewer.com",
+    thumbnail: "codex-viewer.png",
+    screenshots: ["codex-viewer.png", "codex-viewer-1.png", "codex-viewer-2.png", "codex-viewer-3.png", "codex-viewer-4.png", "codex-viewer-5.png", "codex-viewer-6.png", "codex-viewer-7.png"],
+    description: '<p>Helped write and deploy a hybrid <a href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank">dApp</a> / traditional web app that allows users to use <a href="https://codexprotocol.com/" target="_blank">Codex Protocol</a>\'s decentralized asset registry. Users can log in via <a href="https://metamask.io/" target="blank">MetaMask</a> if they choose to manage their own wallet, or they can log in via a social identity provider (e.g. Google or Facebook), which provisions a Smart Contract for them so Codex Protocol can send transactions on their behalf without storing private keys. This allows people unfamiliar with blockchain technology to use the decentralized platform with ease!</p><p>This project presented several interesting challenges specific to dApp development. For example, all blockchain interactions are asynchronous with very long processing times (i.e. upwards of 5 minutes.) Additionally, the application must support "crypto-savvy" users (who log in via MetaMask) as well as "normal" users (who log in via OAuth2 and make traditional API calls.)</p><p>This application is open source and <a href="https://github.com/codex-protocol/web.codex-viewer" target="_blank">available on GitHub</a>.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "<a href='https://codeship.com/'>Codeship</a>", "<a href='https://web3js.readthedocs.io/en/1.0/index.html'>Web3</a>", "Ethereum", "<a href='https://metamask.io/' target='blank'>MetaMask</a>", "OAuth2 Login", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node.js", "Express", "MongoDB", "VueJS", "Bootstrap Vue", "<a href='http://stylus-lang.com/'>Stylus</a>", "git", "webpack", "Open Source"],
+    nsfw: false
+  },
+
+  {
+    name: "The Codex API & Documentation",
+    date: {
+      start: new Date("March 27, 2018"),
+      current: true,
+    },
+    type: "professional",
+    url: "https://dev.codexprotocol.com",
+    thumbnail: "codex-api.png",
+    screenshots: ["codex-api-1.png", "codex-api-2.png", "codex-api-3.png"],
+    description: '<p>Main contributor to the API and backend infrastructure for <a href="https://codexprotocol.com/" target="_blank">Codex Protocol</a>\'s decentralized asset registry. The API handles everything from OAuth2 authentication, to submitting &amp; processing blockchain transactions, to sending transactional emails via <a href="https://sendgrid.com" target="_blank">SendGrid</a>, to processing payments via <a href="https://stripe.com" target="_blank">Stripe</a>.</p><p>The API also allows third-party access for application developers to build on top of The Codex Protocol. I was responsible for writing <a href="https://dev.codexprotocol.com" target="_blank">the comprehensive API documentation</a>.</p><p>Unfortunately we had to close-source this project, but an older archived version of the code can be found <a href="https://github.com/codex-protocol/deprecated.service.codex-registry-api" target="_blank">here</a>.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "<a href='https://stripe.com'>Stripe</a>", "<a href='https://sendgrid.com'>SendGrid</a>", "<a href='https://mixpanel.com'>Mixpanel</a>", "<a href='https://sentry.io/'>Sentry</a>", "<a href='https://codeship.com/'>Codeship</a>", "npm", "Socket.io", "<a href='http://www.passportjs.org/'>Passport</a>", "OAuth2", "<a href='https://web3js.readthedocs.io/en/1.0/index.html'>Web3</a>", "Ethereum", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "<a href='https://github.com/agenda/agenda'>Agenda</a>", "Node.js", "Express", "MongoDB", "git"],
+    nsfw: false
+  },
 
   {
     name: "Biddable",
@@ -28,9 +43,24 @@ var entries = [
     type: "professional",
     url: "https://codexprotocol.com/biddable.html",
     thumbnail: "biddable.png",
-    screenshots: ["biddable-1.png", "biddable-2.png", "biddable-3.png"],
-    description: '<p>Helped write backend service that allows people to deposit cryptocurrecy (Ether) into an "escrow" smart contract, which allows them to be instantly approved to bid on artwork at over 5,000 auction houses.</p>',
-    tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "web3", "Ethereum", "<a href='https://metamask.io/'>MetaMask</a>", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node", "Express", "MongoDB", "React", "git", "webpack"],
+    screenshots: ["biddable-1.png", "biddable-2.png", "biddable-3.png", "biddable-4.png"],
+    description: '<p>Helped write backend service that allows people to deposit cryptocurrency (Ether) into an "escrow" smart contract, which allows them to be instantly approved to bid on artwork at over 5,000 auction houses.</p>',
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, CodeDeploy, & more)", "<a href='https://codeship.com/'>Codeship</a>", "<a href='https://web3js.readthedocs.io/en/1.0/index.html'>Web3</a>", "Ethereum", "<a href='https://metamask.io/' target='blank'>MetaMask</a>", "<a href='http://truffleframework.com/'>Truffle</a>", "<a href='http://truffleframework.com/ganache/'>Ganache</a>", "Node.js", "Express", "MongoDB", "React", "TypeScript", "git", "webpack"],
+    nsfw: false
+  },
+
+  {
+    name: "Ethereal Summit 2018 Charity Auction App",
+    date: {
+      start: new Date("April 30, 2018"),
+      end: new Date("May 12, 2018"),
+    },
+    type: "professional",
+    url: "https://github.com/codex-protocol/service.ethereal-auction-mini-app",
+    thumbnail: "ethereal-summit.png",
+    screenshots: ["ethereal-summit-1.png", "ethereal-summit-2.png", "ethereal-summit-3.png", "ethereal-summit-4.png"],
+    description: '<p>In May 2018, <a href="https://codexprotocol.com/" target="_blank">Codex Protocol</a> held a charity art auction at <a href="https://etherealsummit.com/events/ethereal-summit-ny-2018/" target="_blank">Ethereal Summit 2018</a>. I was responsible for creating a small application capable of showing the current artwork up for bid, along with the current bid amount in USD, Ether, and Bitcoin.</p><p>The application was projected behind the auctioneer, and I was backstage controlling everything from admin panel. The admin panel commincates with the main app over WebSockets, and the backend pulls realtime cryptocurrency conversions from the <a href="https://coinmarketcap.com/" target="_blank">CoinMarketCap</a> API.</p><p>This application is open source and <a href="https://github.com/codex-protocol/service.ethereal-auction-mini-app" target="_blank">available on GitHub</a>.</p>',
+    tags: ["Node.js", "Express", "WebSockets", "Open Source"],
     nsfw: false
   },
 
@@ -45,7 +75,7 @@ var entries = [
     thumbnail: "live-meetings.png",
     screenshots: ["live-meetings-1.png", "live-meetings-2.png", "live-meetings-3.png"],
     description: '<p>Developed & maintained a Flash-based (then later, WebRTC-based) online conferencing application including support for streaming up to 16 video feeds, screen sharing, slide-based presentations, in-line chat with emoji support, whiteboard drawing, file sharing, and more.</p>',
-    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node", "ActionScript", "WebRTC", "Express", "Socket.io", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node.js", "ActionScript", "WebRTC", "Express", "Socket.io", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
     nsfw: false
   },
 
@@ -60,7 +90,7 @@ var entries = [
     thumbnail: "video-chat.png",
     screenshots: ["video-chat-1.png", "video-chat-2.png", "video-chat-3.png"],
     description: '<p>Helped develop WebRTC-based online video chat application including support for screen sharing and in-line chat. This application also had a “group chat” section that allowed users to host chat rooms as well as “corporate” & “country” rooms managed by Talk Fusion.</p>',
-    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "VueJS", "Vue Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "JavaScript", "Node", "Express", "Socket.io", "MySQL", "git", "webpack"],
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "VueJS", "Vue Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "JavaScript", "Node.js", "Express", "Socket.io", "MySQL", "git", "webpack"],
     nsfw: false
   },
 
@@ -75,7 +105,7 @@ var entries = [
     thumbnail: "product-dashboard.png",
     screenshots: ["product-dashboard-1.png", "product-dashboard-2.png", "product-dashboard-3.png", "product-dashboard-4.png"],
     description: '<p>Developed & maintained a product dashboard that integrated legacy ASP applications as well as all-new modern web apps. Wrote a calendar app from scratch that allowed users to create & schedule Live Meetings with tons of additional features including recurring meetings, invitations & reminder emails, surveys, and custom backgrounds.</p>',
-    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node", "Express", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
+    tags: ["Amazon Web Services (EC2, S3, CloudFront, RDS, & more)", "AngularJS 1.5", "Angular Material", "HTML5", "CSS3", "<a href='http://stylus-lang.com/'>Stylus</a>", "CoffeeScript", "Node.js", "Express", "MySQL", "git", "<a href='http://brunch.io/'>Brunch</a>"],
     nsfw: false
   },
 
@@ -255,12 +285,12 @@ var entries = [
       start: new Date("May 15, 2014")
     },
     type: "personal",
-    coolness: 1.2,
+    coolness: 1.3,
     url: "https://github.com/Anaphase/note-to-self-bot",
     thumbnail: "ntsb.png",
     screenshots: ["ntsb-1.png", "ntsb-2.png", "ntsb-3.png"],
     description: '<p>A reddit bot that scans comments for \'note to self\' and replies with a reminder one day later.</p><p>The bot uses <a href="https://github.com/Anaphase/reddit-stream">reddit-stream</a> (and npm module I also wrote) to scan comments, <a href="https://www.mongodb.org/">MongoDB</a>/<a href="http://mongoosejs.com/">Mongoose</a> to save them locally, and <a href="https://bitbucket.org/Doctor_McKay/raw.js">raw.js</a> to send comment replies. The bot uses <a href="http://socket.io/">socket.io</a> to communicate with the frontend dashboard (for editing replies and removing false positives from the queue) and <a href="https://pushover.net/">Pushover</a> to notify your phone when it picks up a comment. NTSB runs forever using <a href="https://github.com/nodejitsu/forever">Forever</a>.</p>',
-    tags: ["Node.JS", "reddit API", "CoffeeScript", "MongoDB", "AngularJS", "Bootstrap", "<a href='https://pushover.net/'>Pushover</a>", "<a href='http://ionicframework.com/'>Ionic Framework</a>"],
+    tags: ["Node.js", "reddit API", "CoffeeScript", "MongoDB", "AngularJS", "Bootstrap", "<a href='https://pushover.net/'>Pushover</a>", "<a href='http://ionicframework.com/'>Ionic Framework</a>"],
     nsfw: false
   },
 
@@ -274,7 +304,7 @@ var entries = [
     url: "http://webcap.me/",
     thumbnail: "webcap.png",
     description: '<p>A simple web app that takes full-page screenshots of websites. I basically wrote this so I could get around my work\'s firewall that blocked very innocuous sites. Features adjustable "screen" width and permanate screenshot retention.</p>',
-    tags: ["Node.JS", "PhantomJS", "PHP", "Brunch", "Backbone"],
+    tags: ["Node.js", "PhantomJS", "PHP", "Brunch", "Backbone"],
     nsfw: false
   },
 
