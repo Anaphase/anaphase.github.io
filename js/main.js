@@ -332,7 +332,7 @@ var entries = [
     url: "http://altform.com/projects/facebook/guesswho/",
     thumbnail: "guesswho.png",
     description: "<p>A fun game where you are given a random Facebook status from one of your friends and you must guess who said it. Give it a try, I think it's really fun!</p>",
-    tags: ["Facebook API", "HTML", "jQuery"],
+    tags: ["Facebook API", "HTML", "jQuery", "Games"],
     nsfw: false
   },
 
@@ -360,7 +360,7 @@ var entries = [
     url: "http://internetdrinkinggame.com/",
     thumbnail: "internetdrinkinggame.png",
     description: "<p>A web-based version of the <a href='http://knowyourmeme.com/memes/4chan-drinking-game-cards'>4chan drinking game</a>. I own a physical copy of these cards and they make for a fun internet-humor based drinking game, but sometimes I wanted to play with a group of friends when I didn't have my deck so I made this site.</p><p class='text-error'>WARNING: SOME CARDS ARE NSFW</p>",
-    tags: ["JavaScript", "jQuery", "HTML", "CSS"],
+    tags: ["JavaScript", "jQuery", "HTML", "CSS", "Games"],
     nsfw: true
   },
 
@@ -444,7 +444,7 @@ var entries = [
     url: "http://altform.com/projects/tetris/",
     thumbnail: "tetris.png",
     description: "<p>A simple tetris clone I made using HTML5 canvas and vanilla JavaScript. Pretty basic, but I had a lot of fun making it.</p><p>Fun fact: if you hold down shift, you'll always get a striaght block ;)</p>",
-    tags: ["JavaScript", "HTML5 Canvas"],
+    tags: ["JavaScript", "HTML5 Canvas", "Games"],
     nsfw: false
   },
 
