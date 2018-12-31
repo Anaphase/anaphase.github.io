@@ -280,6 +280,21 @@ var entries = [
   },
 
   {
+    name: "Snek",
+    date: {
+      start: new Date("July 24, 2018"),
+      end: new Date("July 25, 2018")
+    },
+    type: "personal",
+    coolness: 1.2,
+    url: "http://altform.com/projects/snek",
+    thumbnail: "snek.png",
+    description: '<p>A game of snake, but the pieces are radio buttons and checkboxes! To pick up "checked" pieces, you must toggle the head of your snake to be "checked" and vice versa. Use the arrow keys to move and spacebar to toggle your snake from checked to unchecked! Fun!</p><p>This game was made for fun to kill time between sessions at <a href="https://www.nodesummit.com/events/2018/" target="_blank">Node Summit 2018</a>.</p>',
+    tags: ["JavaScript", "HTML", "CSS", "Games"],
+    nsfw: false
+  },
+
+  {
     name: "Note to Self Bot",
     date: {
       start: new Date("May 15, 2014")
